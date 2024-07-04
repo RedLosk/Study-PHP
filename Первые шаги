@@ -155,3 +155,13 @@ echo "Январь\nФевраль\nМарт";
  echo $city;
 }
 get_city();
+
+<?php
+$int1 = 81;
+function number() {
+  $int1 = 18;
+  echo $int1;
+}
+number();
+// 18
+
