@@ -850,3 +850,34 @@ switch($month) {
         echo "Такого месяца нет";
 }
 ?>
+
+<?php
+$a = readline();
+$b = readline();
+for ( ; $b >= $a; $a++) {
+    if ($a % 2 == 0) 
+    print_r($a." ");
+}
+
+<?php
+while(true) {
+    $current = readline();
+
+    if ($current != 10) {
+        print_r($current."\n");
+    } else {
+        break;
+    }
+}
+
+<?php
+
+$number = (int) readline();
+
+while ($number !== 10) {
+    if ($number !== 5 && $number !== 15) {
+        echo $number . "\n";
+    }
+
+    $number = (int) readline();
+}
